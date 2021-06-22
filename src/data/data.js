@@ -1,9 +1,18 @@
 export const projects = [
   {
+    title: 'Hotel Carousels app',
+    description: "",
+    image: '/images/4.png',
+    tags: ['React', 'TypeScript', 'Sass', 'Jest'],
+    source: 'https://github.com/sunjus/hotel',
+    visit: 'https://hotel-carousels.netlify.app/',
+    id: 0,
+  },
+  {
     title: 'Recipe app',
     description: "",
-      image: '/images/1.png',
-      tags: ['JavaScript', 'CSS3'],
+    image: '/images/1.png',
+    tags: ['JavaScript', 'CSS3'],
     source: 'https://github.com/sunjus/recipe-app',
     visit: 'https://sunjus.github.io/recipe-app/',
     id: 3,
@@ -20,20 +29,11 @@ export const projects = [
   {
     title: 'Social-event app',
     description: "",
-      image: '/images/3.jpg',
-      tags: ['React', 'NodeJS', 'expressJS', 'MongoDB' ],
+    image: '/images/3.png',
+    tags: ['React', 'NodeJS', 'expressJS', 'MongoDB' ],
     source: 'https://github.com/sunjus/social-events-app',
     visit: 'https://fullstack-events-app.herokuapp.com/',
     id: 1,
-  },
-  {
-    title: 'Hotel Carousels app',
-    description: "",
-    image: '/images/4.jpg',
-    tags: ['React', 'TypeScript', 'Sass', 'Jest'],
-    source: 'https://github.com/sunjus/hotel',
-    visit: 'https://hotel-carousels.netlify.app/',
-    id: 0,
   },
 ];
 
