@@ -38,7 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey', }, 
-  { year: 2021, text: 'Shared my projects with the world', },
+  { year: 2018, text: 'Started my journey', },
+  { year: 2019, text: 'Explored new world', },
+  { year: 2020, text: 'Started React projects', }, 
+  { year: 2021, text: 'Shared my projects', },
   
 ];
