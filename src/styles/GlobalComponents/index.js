@@ -167,8 +167,8 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '120px' : '220px'};
+  height: ${({ alt }) => alt ? '42px' : '54px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
@@ -185,15 +185,15 @@ export const ButtonBack = styled.div`
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: ${({ alt }) => alt ? '150px' : '184px'};
-    height: ${({ alt }) => alt ? '52px' : '48px'};
+    width: ${({ alt }) => alt ? '100px' : '154px'};
+    height: ${({ alt }) => alt ? '42px' : '38px'};
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
     margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-    height: 32px;
+    height: 27px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
