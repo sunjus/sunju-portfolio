@@ -3,6 +3,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
+  //position: sticky;
+  //top:0;
+  padding:40px;
+  text-align: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -20,6 +24,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 `;
 
 export const Div1 = styled.div`

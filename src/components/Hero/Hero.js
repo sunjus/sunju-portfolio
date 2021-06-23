@@ -12,11 +12,11 @@ const Hero = (props) => (
         My Personal Portfolio.
       </SectionTitle>
       <SectionText>
-        I am a Front-end Web Developer specialized in React. <br />
+        I am Sunju, a Front-end Web Developer specialized in React. <br />
         I love building clean and intuitive interfaces, conversations about design and delivering features
         that help simplify a user's experience.
       </SectionText>
-      <Button href='#about' /*onClick={() => window.location = 'https://google.com'}*/>
+      <Button onClick={() => window.location = '#about'}>
         Learn More
       </Button>
     </LeftSection>

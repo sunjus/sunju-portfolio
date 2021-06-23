@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiRuby size='3rem' /> <Span>Sunju Shin</Span>
+          <DiRuby size='2rem' /> <Span>Sunju Shin</Span>
         </a>
       </Link>
     </Div1>

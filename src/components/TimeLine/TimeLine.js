@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider colorAlt /><br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I love to learn new things, so I jumped into the world of programming after working in fashion and management. <br />

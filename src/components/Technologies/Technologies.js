@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiSass, DiNodejs } from 'react-icons/di';
+import { SiTypescript, SiJest, SiMongodb } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -14,7 +15,10 @@ const Technologies = () =>  (
   <List>
     <ListItem>
       <picture>
-        <DiReact size="3rem" />
+        <DiReact size="4rem" />
+        <DiSass size='3.5rem' />
+        <SiTypescript size='3rem' />
+        <SiJest size='3rem' />
       </picture>
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
@@ -25,7 +29,9 @@ const Technologies = () =>  (
     </ListItem>
     <ListItem>
       <picture>
-        <DiFirebase size="3rem" />
+        <DiFirebase size="4rem" />
+        <DiNodejs size='4rem'/>
+        <SiMongodb size='4rem'/>
       </picture>
       <ListContainer>
         <ListTitle>Back-End</ListTitle>
@@ -46,7 +52,6 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
   </List>
-  <SectionDivider colorAlt />
 </Section>
 );
 
