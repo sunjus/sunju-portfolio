@@ -12,8 +12,11 @@ const Hero = (props) => (
   <Section>
     <LeftSection>
       <SectionTitle>
-        Welcome to <br />A creative, adventurous, and curious Front-End
-        Developer's Portfolio.
+        Welcome to
+        <br />A creative,
+        <br /> adventurous,
+        <br /> and curious
+        <br /> Front-End Developer's Portfolio.
       </SectionTitle>
       <SectionText>
         I am Sunju, a Front-end Web Developer specialized in React. <br />I love

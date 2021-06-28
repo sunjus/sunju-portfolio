@@ -44,7 +44,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Server-Side</ListTitle>
           <ListIcon src="/images/backend.png" />
           <ListParagraph>
             I use javascript on the server-side by utilizing its run-time

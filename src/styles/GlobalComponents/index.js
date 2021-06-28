@@ -10,22 +10,26 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  margin-top: 52px;
+  //margin-top: 52px;
+  //flex-wrap: wrap;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
+    //flex-wrap: wrap;
+    //margin-top: 25px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
-
+    //margin-top: 15px;
     width: calc(100vw - 32px);
     flex-direction: column;
   }
 `;
 
 export const SectionTitle = styled.h2`
+  //flex-wrap: wrap;
   font-weight: 800;
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
@@ -46,6 +50,7 @@ export const SectionTitle = styled.h2`
     line-height: ${(props) => (props.main ? "56px" : "48px")};
     margin-bottom: 12px;
     padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
+    //flex-wrap: wrap;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -56,6 +61,7 @@ export const SectionTitle = styled.h2`
     margin-bottom: 8px;
     padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
     max-width: 100%;
+    //flex-wrap: wrap;
   }
 `;
 
@@ -66,6 +72,7 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -88,8 +95,8 @@ export const SectionDivider = styled.div`
   background-color: #fff;
   background: ${(props) =>
     props.colorAlt
-      ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
-      : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+      ? "linear-gradient(270deg, #5109ff 0%, #ff09e6 100%)"
+      : "linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)"};
 
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 

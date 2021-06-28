@@ -62,7 +62,7 @@ export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(133, 131, 131, 0.5);
   text-align: center;
   padding: 20px;
 
@@ -97,7 +97,7 @@ export const ListTitle = styled.h4`
 export const ListParagraph = styled.p`
   font-size: 18px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.884);
   margin: 4px auto;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -112,9 +112,13 @@ export const ListParagraph = styled.p`
 `;
 
 export const ListItem = styled.li`
-  max-width: 320px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
+  //background: linear-gradient(30deg, #01abc7 0%, #19ac62 100%);
+  //background: linear-gradient(30deg, #ff7c09 0%, #cf05ad 100%);
+  //background: linear-gradient(30deg, #5109ff 0%, #ff09e6 100%);
 
   picture {
     display: flex;

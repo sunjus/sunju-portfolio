@@ -1,11 +1,11 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from "react-icons/io";
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
   //position: sticky;
   //top:0;
-  padding:40px;
+  padding: 40px;
   text-align: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -24,7 +24,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 `;
 
 export const Div1 = styled.div`
@@ -42,6 +42,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    justify-content: space-between;
   }
 `;
 export const Div3 = styled.div`
@@ -57,7 +58,7 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
+  font-size: 2.3rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
@@ -68,6 +69,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 2.1rem;
   }
 `;
 
@@ -104,8 +106,8 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   display: flex;
   align-self: center;
   transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
+  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
 
   &:hover {
     opacity: 1;
@@ -117,18 +119,16 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
+  &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
-`
+`;
