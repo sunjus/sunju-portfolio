@@ -45,7 +45,7 @@ const Footer = () => {
           <SocialIcons href="https://linkedin.com/in/sunjus">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://youtube.com/">
+          <SocialIcons href="https://studio.youtube.com/channel/UCe5RitlSugA1LSC1SlFcXZQ">
             <AiFillYoutube size="3rem" />
           </SocialIcons>
         </SocialContainer>
