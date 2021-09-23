@@ -18,6 +18,15 @@ export const projects = [
     id: 3,
   },
   {
+    title: "Restaurant website",
+    description: "",
+    image: "/images/6.png",
+    tags: ["JavaScript", "CSS3"],
+    source: "https://github.com/sunjus/ecommerce-restaurant",
+    visit: "https://mannaravintola.netlify.app/",
+    id: 4,
+  },
+  {
     title: "Movie app",
     description: "",
     image: "/images/2.png",
