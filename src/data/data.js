@@ -36,6 +36,15 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Information app",
+    description: "",
+    image: "/images/7.png",
+    tags: ["React", "CSS3"],
+    source: "https://github.com/sunjus/user-information",
+    visit: "https://sunjus-user-information.netlify.app/",
+    id: 5,
+  },
+  {
     title: "Social-event app",
     description: "",
     image: "/images/3.png",
