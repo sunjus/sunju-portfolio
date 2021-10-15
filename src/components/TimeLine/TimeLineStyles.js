@@ -47,10 +47,10 @@ export const CarouselMobileScrollNode = styled.div`
 export const CarouselItem = styled.div`
   background: radial-gradient(
     ellipse at left bottom,
-    #c77e8f 5%,
-    #72165b 25%,
-    #371547 50%,
-    #020230 100%
+    #5e3910 5%,
+    #7a461b 25%,
+    #a16715 50%,
+    #5e3910 100%
   );
   border-radius: 3px;
   max-width: 196px;
@@ -65,10 +65,10 @@ export const CarouselItem = styled.div`
     min-width: 120px;
     background: radial-gradient(
       ellipse at left bottom,
-      #c77e8f 5%,
-      #72165b 25%,
-      #371547 50%,
-      #020230 100%
+      #5e3910 5%,
+      #7a461b 25%,
+      #a16715 50%,
+      #5e3910 100%
     );
     padding: 4px;
     align-content: start;

@@ -8,10 +8,12 @@ export default {
   colors: {
     primary1: "hsl(204,23.8%,95.9%)",
     background1:
-      "radial-gradient(ellipse at left bottom, #c77e8f 5%, #72165b 25%, #371547 50%, #020230 100%);",
+      "radial-gradient(ellipse at left bottom,  #5e3910 5%, #7a461b 25%, #0f0a03 50%, #5e3910 100%);",
+    /*"radial-gradient(ellipse at left bottom, #c77e8f 5%, #72165b 25%, #371547 50%, #020230 100%);",*/
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
     background2: "hsl(232.7,27.3%,23.7%)",
+    backgroundImage: "url(/images/universe.jpg)",
   },
   // Breakpoints for responsive design
   breakpoints: {
