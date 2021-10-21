@@ -38,7 +38,7 @@ export const projects = [
   {
     title: "Movie APP",
     description: "",
-    image: "/images/2.png",
+    image: "/images/portfolio1.png",
     tags: ["React", "Styled-components"],
     source: "https://github.com/sunjus/movie-app",
     visit: "https://movie-wonderful.netlify.app/",
