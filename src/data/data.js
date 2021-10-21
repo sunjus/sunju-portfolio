@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "Hotel Carousels app",
+    title: "Hotel Carousels APP",
     description: "",
     image: "/images/4.png",
     tags: ["React", "TypeScript", "Sass", "Jest"],
@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Restaurant website",
+    title: "Restaurant Website",
     description: "",
     image: "/images/6.png",
     tags: ["JavaScript", "CSS3"],
@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: "eCommerce website",
+    title: "eCommerce Website",
     description: "",
     image: "/images/1.png",
     tags: ["JavaScript", "CSS3"],
@@ -27,7 +27,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Information app",
+    title: "Information APP",
     description: "",
     image: "/images/7.png",
     tags: ["React", "CSS3"],
@@ -36,7 +36,7 @@ export const projects = [
     id: 3,
   },
   {
-    title: "Movie app",
+    title: "Movie APP",
     description: "",
     image: "/images/2.png",
     tags: ["React", "Styled-components"],
@@ -45,7 +45,7 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Social-event app",
+    title: "Social-event APP",
     description: "",
     image: "/images/3.png",
     tags: ["React", "NodeJS", "expressJS", "MongoDB"],
