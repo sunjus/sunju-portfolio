@@ -14,7 +14,7 @@ export const projects = [
     image: "/images/6.png",
     tags: ["JavaScript", "CSS3"],
     source: "https://github.com/sunjus/ecommerce-restaurant",
-    visit: "https://mannaravintola.netlify.app/",
+    visit: "https://mannaravintola.fi/",
     id: 1,
   },
   {
