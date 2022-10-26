@@ -12,8 +12,7 @@ export const projects = [
     title: "Restaurant Website",
     description: "",
     image: "/images/6.png",
-    tags: ["JavaScript", "CSS3", "Web server: Netlify", "Backend(application server): Netlify Function", "Email(send): mailazy", "DB(Data store): Google Sheet API"
-],
+    tags: ["JavaScript", "Backend: Netlify Function", "DB: Google Sheet API"],
     source: "https://github.com/sunjus/ecommerce-restaurant",
     visit: "https://mannaravintola.fi/",
     id: 1,
