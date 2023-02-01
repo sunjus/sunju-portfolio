@@ -22,8 +22,8 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       Through consistent daily practice, I’ve managed to develop a skill set
-      that covers both ends of the spectrum, from the front-end to the backend.
-      Currently, my stronger side is front-end development.
+      that covers both ends of the spectrum, from the front-end to the backend. 
+      I am now leaning toward becoming a front-end developer.
     </SectionText>
     <List>
       <ListItem>
