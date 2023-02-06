@@ -45,12 +45,12 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Movie APP",
+    title: "Academy Website",
     description: "",
     image: "/images/2.png",
-    tags: ["React", "Styled-components", "API"],
-    source: "https://github.com/sunjus/movie-app",
-    visit: "https://movie-wonderful.netlify.app/",
+    tags: ["WORDPRESS", "CSS"],
+    source: "https://github.com/sunjus/",
+    visit: "https://suabanana.com",
     id: 5,
   },
 ];
