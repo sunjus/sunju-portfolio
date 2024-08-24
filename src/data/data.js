@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Business Website",
     description: "",
-    image: "/images/7.png",
+    image: "/images/8.png",
     tags: ["JavaScript", "CSS3"],
     source: "https://github.com/sunjus",
     visit: "https://primeit.fi/",
